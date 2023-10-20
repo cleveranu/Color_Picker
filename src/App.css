@@ -1,0 +1,63 @@
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.color-item {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 50%; 
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+.color-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+p {
+  margin-top: 10px;
+  color: #555;
+}
+
+
+.color-picker {
+  text-align: center;
+  margin: 20px;
+}
+
+
+.color-list {
+  display: flex;
+  justify-content: space-around; /* Center the items and add space between them */
+  margin-top: 20px; /* Increase the top margin for better spacing */
+}
+
+.color-picker {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
